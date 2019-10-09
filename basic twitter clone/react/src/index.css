@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.input-text {
+  border: 1px solid #000000;
+  line-height: 30px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 97.3%;
+}
+.footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+
+.table-details {
+  border: 1px solid #000000;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.table-details .left {
+  text-align: center;
+  border-right: 1px solid #000000;
+  padding: 10px;
+  width: 5%;
+}
+
+.table-details .right {
+  padding: 10px;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+.list-view {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.list-view li {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.top-navbar {
+  border-bottom: 1px solid #000000;
+  padding-top: 15px;
+  min-height: 50px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  border: 1px solid #000000;
+  padding:5px;
+  margin-right: 5px;
+  background-color: #c2c2c2;
+  text-transform: uppercase;
+}
+.profile {
+  border: 1px solid #000000;
+  padding:5px;
+  margin-right: 5px;
+  background-color: #c2c2c2;
+  text-transform: uppercase;
+}
+
+.top-navbar a {
+  padding:5px;
+  margin-right: 5px;
+}
+
+.top-navbar .right {
+  float: right;
+  width: 100px;
+  text-align: center;
+}
+
+.top-navbar .left {
+  float: left;
+}
+
+.error-msg {
+  background-color: rgb(255, 177, 177);
+  border: 1px solid red;
+  color: red;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.success-msg {
+  background-color: rgb(193, 255, 193);
+  border: 1px solid green;
+  color: green;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.login-container {
+  max-width: 50%;
+  margin: auto;
+  border: 1px solid #000000;
+  padding: 20px;
+  text-align: center;
+}
+
+.like-btn {
+  font-weight: 800;
+  font-size: 30px;
+}
